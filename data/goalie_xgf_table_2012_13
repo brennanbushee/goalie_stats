@@ -1,0 +1,1591 @@
+<table class="tablesorter" id="goaliesTable">
+    <thead>
+        <tr>
+            <th class="header">Name<span class="ui-icon-caret-2-n-s" style="display:inline-block"></span></th>
+            <th class="header">Games Played<span class="ui-icon-caret-2-n-s" style="display:inline-block"></span><i
+                    class="fas fa-sort"></i></th>
+            <th class="header">Goals Against<span class="ui-icon-caret-2-n-s" style="display:inline-block"></span><i
+                    class="fas fa-sort"></i></th>
+            <th class="header">Expected Goals Against<span class="ui-icon-caret-2-n-s"
+                    style="display:inline-block"></span><i class="fas fa-sort"></i></th>
+            <th class="header">Goals Saved Above Expected<span class="ui-icon-caret-2-n-s"
+                    style="display:inline-block"></span><i class="fas fa-sort"></i></th>
+            <th class="header">Goals Saved Above Expected Per 60<span class="ui-icon-caret-2-n-s"
+                    style="display:inline-block"></span><i class="fas fa-sort"></i></th>
+            <th class="header">Save % on Unblocked Shots<span class="ui-icon-caret-2-n-s"
+                    style="display:inline-block"></span><i class="fas fa-sort"></i></th>
+            <th class="header">xSave % on Unblocked Shots<span class="ui-icon-caret-2-n-s"
+                    style="display:inline-block"></span><i class="fas fa-sort"></i></th>
+            <th class="header">Save % Above Expected<span class="ui-icon-caret-2-n-s"
+                    style="display:inline-block"></span><i class="fas fa-sort"></i></th>
+            <th class="header">Save % on Shots On Goal<span class="ui-icon-caret-2-n-s"
+                    style="display:inline-block"></span><i class="fas fa-sort"></i></th>
+            <th class="header">GAA<span class="ui-icon-caret-2-n-s" style="display:inline-block"></span><i
+                    class="fas fa-sort"></i></th>
+            <th class="header">xGAA<span class="ui-icon-caret-2-n-s" style="display:inline-block"></span><i
+                    class="fas fa-sort"></i></th>
+            <th class="header headerSortUp">GAA Better Than Expected<span class="ui-icon-caret-2-n-s"
+                    style="display:inline-block"></span><i class="fas fa-sort"></i></th>
+            <th class="header">Wins Above Replacement<span class="ui-icon-caret-2-n-s"
+                    style="display:inline-block"></span><i class="fas fa-sort"></i></th>
+            <th class="header">Icetime (Minutes)<span class="ui-icon-caret-2-n-s"
+                    style="display:inline-block"></span><i class="fas fa-sort"></i></th>
+            <th class="header">Rebounds Per Save<span class="ui-icon-caret-2-n-s"
+                    style="display:inline-block"></span><i class="fas fa-sort"></i></th>
+            <th class="header">Puck Freezes Per Save<span class="ui-icon-caret-2-n-s"
+                    style="display:inline-block"></span><i class="fas fa-sort"></i></th>
+            <th class="header">Goals Against<span class="ui-icon-caret-2-n-s" style="display:inline-block"></span><i
+                    class="fas fa-sort"></i></th>
+            <th class="header">Saves on Shots On Goal<span class="ui-icon-caret-2-n-s"
+                    style="display:inline-block"></span><i class="fas fa-sort"></i></th>
+            <th class="header">Saves on Unblocked Shot Attempts<span class="ui-icon-caret-2-n-s"
+                    style="display:inline-block"></span><i class="fas fa-sort"></i></th>
+            <th class="header">% of Shot Attempts Blocked By Teammates<span class="ui-icon-caret-2-n-s"
+                    style="display:inline-block"></span><i class="fas fa-sort"></i></th>
+            <th class="header">% of Unblocked Shot Attempts Against On Goal<span class="ui-icon-caret-2-n-s"
+                    style="display:inline-block"></span><i class="fas fa-sort"></i></th>
+            <th class="header">Expected % of Unblocked Shot Attempts Against On Goal<span
+                    class="ui-icon-caret-2-n-s" style="display:inline-block"></span><i class="fas fa-sort"></i></th>
+            <th class="header">On Goal % Above Expected<span class="ui-icon-caret-2-n-s"
+                    style="display:inline-block"></span><i class="fas fa-sort"></i></th>
+            <th class="header">Low Danger Unblocked Shot Attempt Save %<span class="ui-icon-caret-2-n-s"
+                    style="display:inline-block"></span><i class="fas fa-sort"></i></th>
+            <th class="header">xLow Danger Unblocked Shot Attempt Save %<span class="ui-icon-caret-2-n-s"
+                    style="display:inline-block"></span><i class="fas fa-sort"></i></th>
+            <th class="header">Low Danger Unblocked Shot Attempt Save% Above Expected<span
+                    class="ui-icon-caret-2-n-s" style="display:inline-block"></span><i class="fas fa-sort"></i></th>
+            <th class="header">Medium Danger Unblocked Shot Attempt Save %<span class="ui-icon-caret-2-n-s"
+                    style="display:inline-block"></span><i class="fas fa-sort"></i></th>
+            <th class="header">xMedium Danger Unblocked Shot Attempt Save %<span class="ui-icon-caret-2-n-s"
+                    style="display:inline-block"></span><i class="fas fa-sort"></i></th>
+            <th class="header">Medium Danger Unblocked Shot AttemptSave % Above Expected<span
+                    class="ui-icon-caret-2-n-s" style="display:inline-block"></span><i class="fas fa-sort"></i></th>
+            <th class="header">High Danger Unblocked Shot Attempt Save %<span class="ui-icon-caret-2-n-s"
+                    style="display:inline-block"></span><i class="fas fa-sort"></i></th>
+            <th class="header">xHigh Danger Unblocked Shot Attempt Save %<span class="ui-icon-caret-2-n-s"
+                    style="display:inline-block"></span><i class="fas fa-sort"></i></th>
+            <th class="header">High Danger Unblocked Shot Attempt Save % Above Expected<span
+                    class="ui-icon-caret-2-n-s" style="display:inline-block"></span><i class="fas fa-sort"></i></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">1</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/DAL.png" width="75"
+                                    height="50" align="left" alt="Dallas Stars"></td>
+                            <td style="text-align:left;">Kari Lehtonen</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">36</td>
+            <td style="background-color:#f5fbfd" ;="">88</td>
+            <td style="background-color:#f5fbfd" ;="">108.12</td>
+            <td style="background-color:#45b3e0" ;="">20.1</td>
+            <td style="background-color:#45b3e0" ;="">0.607</td>
+            <td style="background-color:#71c5e7" ;="">0.955</td>
+            <td style="background-color:#c9e9f6" ;="">0.944</td>
+            <td style="background-color:#45b3e0" ;="">0.010</td>
+            <td style="background-color:#71c5e7" ;="">0.916</td>
+            <td style="background-color:#f5fbfd" ;="">2.66</td>
+            <td style="background-color:#f5fbfd" ;="">3.27</td>
+            <td style="background-color:#45b3e0" ;="">0.61</td>
+            <td style="background-color:#45b3e0" ;="">3.35</td>
+            <td style="background-color:#45b3e0" ;="">1986</td>
+            <td style="background-color:#f5fbfd" ;="">0.051</td>
+            <td style="background-color:#f5fbfd" ;="">0.138</td>
+            <td style="background-color:#f5fbfd" ;="">88</td>
+            <td style="background-color:#45b3e0" ;="">962</td>
+            <td style="background-color:#45b3e0" ;="">1859</td>
+            <td style="background-color:#71c5e7" ;="">19.35%</td>
+            <td style="background-color:#9dd7ef" ;="">53.93%</td>
+            <td style="background-color:#71c5e7" ;="">55.06%</td>
+            <td style="background-color:#71c5e7" ;="">-1.13%</td>
+            <td style="background-color:#45b3e0" ;="">0.977</td>
+            <td style="background-color:#71c5e7" ;="">0.972</td>
+            <td style="background-color:#71c5e7" ;="">0.005</td>
+            <td style="background-color:#45b3e0" ;="">0.916</td>
+            <td style="background-color:#9dd7ef" ;="">0.876</td>
+            <td style="background-color:#45b3e0" ;="">0.040</td>
+            <td style="background-color:#71c5e7" ;="">0.667</td>
+            <td style="background-color:#9dd7ef" ;="">0.639</td>
+            <td style="background-color:#45b3e0" ;="">0.028</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">2</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/OTT.png" width="75"
+                                    height="50" align="left" alt="Ottawa Senators"></td>
+                            <td style="text-align:left;">Craig Anderson</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">24</td>
+            <td style="background-color:#c9e9f6" ;="">40</td>
+            <td style="background-color:#f5fbfd" ;="">53.44</td>
+            <td style="background-color:#45b3e0" ;="">13.4</td>
+            <td style="background-color:#45b3e0" ;="">0.566</td>
+            <td style="background-color:#45b3e0" ;="">0.966</td>
+            <td style="background-color:#71c5e7" ;="">0.955</td>
+            <td style="background-color:#45b3e0" ;="">0.011</td>
+            <td style="background-color:#45b3e0" ;="">0.941</td>
+            <td style="background-color:#45b3e0" ;="">1.69</td>
+            <td style="background-color:#9dd7ef" ;="">2.26</td>
+            <td style="background-color:#45b3e0" ;="">0.57</td>
+            <td style="background-color:#45b3e0" ;="">2.24</td>
+            <td style="background-color:#45b3e0" ;="">1420</td>
+            <td style="background-color:#9dd7ef" ;="">0.038</td>
+            <td style="background-color:#f5fbfd" ;="">0.137</td>
+            <td style="background-color:#c9e9f6" ;="">40</td>
+            <td style="background-color:#45b3e0" ;="">637</td>
+            <td style="background-color:#45b3e0" ;="">1154</td>
+            <td style="background-color:#9dd7ef" ;="">18.72%</td>
+            <td style="background-color:#71c5e7" ;="">56.7%</td>
+            <td style="background-color:#9dd7ef" ;="">54.97%</td>
+            <td style="background-color:#c9e9f6" ;="">1.73%</td>
+            <td style="background-color:#45b3e0" ;="">0.984</td>
+            <td style="background-color:#71c5e7" ;="">0.973</td>
+            <td style="background-color:#71c5e7" ;="">0.011</td>
+            <td style="background-color:#71c5e7" ;="">0.908</td>
+            <td style="background-color:#9dd7ef" ;="">0.879</td>
+            <td style="background-color:#45b3e0" ;="">0.029</td>
+            <td style="background-color:#71c5e7" ;="">0.694</td>
+            <td style="background-color:#71c5e7" ;="">0.661</td>
+            <td style="background-color:#45b3e0" ;="">0.033</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">3</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/BOS.png" width="75"
+                                    height="50" align="left" alt="Boston Bruins"></td>
+                            <td style="text-align:left;">Tuukka Rask</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">36</td>
+            <td style="background-color:#f5fbfd" ;="">70</td>
+            <td style="background-color:#f5fbfd" ;="">89.17</td>
+            <td style="background-color:#45b3e0" ;="">19.2</td>
+            <td style="background-color:#45b3e0" ;="">0.548</td>
+            <td style="background-color:#71c5e7" ;="">0.962</td>
+            <td style="background-color:#9dd7ef" ;="">0.951</td>
+            <td style="background-color:#45b3e0" ;="">0.010</td>
+            <td style="background-color:#45b3e0" ;="">0.929</td>
+            <td style="background-color:#45b3e0" ;="">2.00</td>
+            <td style="background-color:#f5fbfd" ;="">2.54</td>
+            <td style="background-color:#45b3e0" ;="">0.55</td>
+            <td style="background-color:#45b3e0" ;="">3.20</td>
+            <td style="background-color:#45b3e0" ;="">2102</td>
+            <td style="background-color:#71c5e7" ;="">0.031</td>
+            <td style="background-color:#f5fbfd" ;="">0.148</td>
+            <td style="background-color:#f5fbfd" ;="">70</td>
+            <td style="background-color:#45b3e0" ;="">910</td>
+            <td style="background-color:#45b3e0" ;="">1760</td>
+            <td style="background-color:#45b3e0" ;="">20.5%</td>
+            <td style="background-color:#9dd7ef" ;="">53.55%</td>
+            <td style="background-color:#9dd7ef" ;="">53.72%</td>
+            <td style="background-color:#9dd7ef" ;="">-0.17%</td>
+            <td style="background-color:#45b3e0" ;="">0.975</td>
+            <td style="background-color:#71c5e7" ;="">0.971</td>
+            <td style="background-color:#9dd7ef" ;="">0.004</td>
+            <td style="background-color:#45b3e0" ;="">0.931</td>
+            <td style="background-color:#9dd7ef" ;="">0.878</td>
+            <td style="background-color:#45b3e0" ;="">0.053</td>
+            <td style="background-color:#71c5e7" ;="">0.693</td>
+            <td style="background-color:#71c5e7" ;="">0.677</td>
+            <td style="background-color:#71c5e7" ;="">0.016</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">4</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/TOR.png" width="75"
+                                    height="50" align="left" alt="Toronto Maple Leafs"></td>
+                            <td style="text-align:left;">James Reimer</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">33</td>
+            <td style="background-color:#f5fbfd" ;="">76</td>
+            <td style="background-color:#f5fbfd" ;="">87.51</td>
+            <td style="background-color:#45b3e0" ;="">11.5</td>
+            <td style="background-color:#45b3e0" ;="">0.372</td>
+            <td style="background-color:#71c5e7" ;="">0.962</td>
+            <td style="background-color:#71c5e7" ;="">0.956</td>
+            <td style="background-color:#71c5e7" ;="">0.006</td>
+            <td style="background-color:#45b3e0" ;="">0.924</td>
+            <td style="background-color:#f5fbfd" ;="">2.46</td>
+            <td style="background-color:#f5fbfd" ;="">2.83</td>
+            <td style="background-color:#45b3e0" ;="">0.37</td>
+            <td style="background-color:#45b3e0" ;="">1.92</td>
+            <td style="background-color:#45b3e0" ;="">1856</td>
+            <td style="background-color:#9dd7ef" ;="">0.035</td>
+            <td style="background-color:#f5fbfd" ;="">0.135</td>
+            <td style="background-color:#f5fbfd" ;="">76</td>
+            <td style="background-color:#45b3e0" ;="">919</td>
+            <td style="background-color:#45b3e0" ;="">1904</td>
+            <td style="background-color:#45b3e0" ;="">21.58%</td>
+            <td style="background-color:#c9e9f6" ;="">50.25%</td>
+            <td style="background-color:#9dd7ef" ;="">52.13%</td>
+            <td style="background-color:#45b3e0" ;="">-1.88%</td>
+            <td style="background-color:#45b3e0" ;="">0.980</td>
+            <td style="background-color:#71c5e7" ;="">0.971</td>
+            <td style="background-color:#71c5e7" ;="">0.008</td>
+            <td style="background-color:#9dd7ef" ;="">0.868</td>
+            <td style="background-color:#9dd7ef" ;="">0.879</td>
+            <td style="background-color:#c9e9f6" ;="">-0.011</td>
+            <td style="background-color:#45b3e0" ;="">0.775</td>
+            <td style="background-color:#71c5e7" ;="">0.693</td>
+            <td style="background-color:#45b3e0" ;="">0.082</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">5</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/TBL.png" width="75"
+                                    height="50" align="left" alt="Tampa Bay Lightning"></td>
+                            <td style="text-align:left;">Ben Bishop</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">22</td>
+            <td style="background-color:#f5fbfd" ;="">56</td>
+            <td style="background-color:#f5fbfd" ;="">63.17</td>
+            <td style="background-color:#45b3e0" ;="">7.2</td>
+            <td style="background-color:#71c5e7" ;="">0.344</td>
+            <td style="background-color:#71c5e7" ;="">0.956</td>
+            <td style="background-color:#9dd7ef" ;="">0.950</td>
+            <td style="background-color:#71c5e7" ;="">0.006</td>
+            <td style="background-color:#71c5e7" ;="">0.92</td>
+            <td style="background-color:#f5fbfd" ;="">2.68</td>
+            <td style="background-color:#f5fbfd" ;="">3.02</td>
+            <td style="background-color:#45b3e0" ;="">0.34</td>
+            <td style="background-color:#45b3e0" ;="">1.20</td>
+            <td style="background-color:#45b3e0" ;="">1255</td>
+            <td style="background-color:#f5fbfd" ;="">0.049</td>
+            <td style="background-color:#f5fbfd" ;="">0.13</td>
+            <td style="background-color:#f5fbfd" ;="">56</td>
+            <td style="background-color:#45b3e0" ;="">645</td>
+            <td style="background-color:#45b3e0" ;="">1216</td>
+            <td style="background-color:#71c5e7" ;="">19.39%</td>
+            <td style="background-color:#71c5e7" ;="">55.11%</td>
+            <td style="background-color:#9dd7ef" ;="">54.24%</td>
+            <td style="background-color:#c9e9f6" ;="">0.87%</td>
+            <td style="background-color:#71c5e7" ;="">0.974</td>
+            <td style="background-color:#71c5e7" ;="">0.970</td>
+            <td style="background-color:#9dd7ef" ;="">0.003</td>
+            <td style="background-color:#45b3e0" ;="">0.926</td>
+            <td style="background-color:#9dd7ef" ;="">0.880</td>
+            <td style="background-color:#45b3e0" ;="">0.047</td>
+            <td style="background-color:#c9e9f6" ;="">0.582</td>
+            <td style="background-color:#71c5e7" ;="">0.655</td>
+            <td style="background-color:#f5fbfd" ;="">-0.073</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">6</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/EDM.png" width="75"
+                                    height="50" align="left" alt="Edmonton Oilers"></td>
+                            <td style="text-align:left;">Devan Dubnyk</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">38</td>
+            <td style="background-color:#f5fbfd" ;="">90</td>
+            <td style="background-color:#f5fbfd" ;="">101.82</td>
+            <td style="background-color:#45b3e0" ;="">11.8</td>
+            <td style="background-color:#71c5e7" ;="">0.337</td>
+            <td style="background-color:#71c5e7" ;="">0.958</td>
+            <td style="background-color:#9dd7ef" ;="">0.952</td>
+            <td style="background-color:#71c5e7" ;="">0.006</td>
+            <td style="background-color:#71c5e7" ;="">0.921</td>
+            <td style="background-color:#f5fbfd" ;="">2.57</td>
+            <td style="background-color:#f5fbfd" ;="">2.91</td>
+            <td style="background-color:#45b3e0" ;="">0.34</td>
+            <td style="background-color:#45b3e0" ;="">1.97</td>
+            <td style="background-color:#45b3e0" ;="">2100</td>
+            <td style="background-color:#9dd7ef" ;="">0.035</td>
+            <td style="background-color:#f5fbfd" ;="">0.119</td>
+            <td style="background-color:#f5fbfd" ;="">90</td>
+            <td style="background-color:#45b3e0" ;="">1043</td>
+            <td style="background-color:#45b3e0" ;="">2032</td>
+            <td style="background-color:#45b3e0" ;="">20.49%</td>
+            <td style="background-color:#9dd7ef" ;="">53.39%</td>
+            <td style="background-color:#9dd7ef" ;="">53.51%</td>
+            <td style="background-color:#9dd7ef" ;="">-0.11%</td>
+            <td style="background-color:#71c5e7" ;="">0.972</td>
+            <td style="background-color:#71c5e7" ;="">0.969</td>
+            <td style="background-color:#9dd7ef" ;="">0.003</td>
+            <td style="background-color:#45b3e0" ;="">0.915</td>
+            <td style="background-color:#9dd7ef" ;="">0.880</td>
+            <td style="background-color:#45b3e0" ;="">0.035</td>
+            <td style="background-color:#9dd7ef" ;="">0.647</td>
+            <td style="background-color:#71c5e7" ;="">0.673</td>
+            <td style="background-color:#f5fbfd" ;="">-0.026</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">7</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/CHI.png" width="75"
+                                    height="50" align="left" alt="Chicago Blackhawks"></td>
+                            <td style="text-align:left;">Ray Emery</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">21</td>
+            <td style="background-color:#9dd7ef" ;="">36</td>
+            <td style="background-color:#c9e9f6" ;="">42.22</td>
+            <td style="background-color:#45b3e0" ;="">6.2</td>
+            <td style="background-color:#71c5e7" ;="">0.333</td>
+            <td style="background-color:#71c5e7" ;="">0.960</td>
+            <td style="background-color:#9dd7ef" ;="">0.953</td>
+            <td style="background-color:#71c5e7" ;="">0.007</td>
+            <td style="background-color:#71c5e7" ;="">0.922</td>
+            <td style="background-color:#45b3e0" ;="">1.94</td>
+            <td style="background-color:#c9e9f6" ;="">2.27</td>
+            <td style="background-color:#45b3e0" ;="">0.33</td>
+            <td style="background-color:#45b3e0" ;="">1.04</td>
+            <td style="background-color:#45b3e0" ;="">1116</td>
+            <td style="background-color:#c9e9f6" ;="">0.044</td>
+            <td style="background-color:#f5fbfd" ;="">0.107</td>
+            <td style="background-color:#9dd7ef" ;="">36</td>
+            <td style="background-color:#45b3e0" ;="">424</td>
+            <td style="background-color:#45b3e0" ;="">857</td>
+            <td style="background-color:#45b3e0" ;="">23.41%</td>
+            <td style="background-color:#c9e9f6" ;="">51.51%</td>
+            <td style="background-color:#c9e9f6" ;="">50.81%</td>
+            <td style="background-color:#c9e9f6" ;="">0.7%</td>
+            <td style="background-color:#71c5e7" ;="">0.974</td>
+            <td style="background-color:#71c5e7" ;="">0.971</td>
+            <td style="background-color:#9dd7ef" ;="">0.002</td>
+            <td style="background-color:#71c5e7" ;="">0.896</td>
+            <td style="background-color:#9dd7ef" ;="">0.877</td>
+            <td style="background-color:#45b3e0" ;="">0.019</td>
+            <td style="background-color:#45b3e0" ;="">0.745</td>
+            <td style="background-color:#71c5e7" ;="">0.680</td>
+            <td style="background-color:#45b3e0" ;="">0.064</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">8</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/DET.png" width="75"
+                                    height="50" align="left" alt="Detroit Red Wings"></td>
+                            <td style="text-align:left;">Jimmy Howard</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">42</td>
+            <td style="background-color:#f5fbfd" ;="">87</td>
+            <td style="background-color:#f5fbfd" ;="">97.46</td>
+            <td style="background-color:#45b3e0" ;="">10.5</td>
+            <td style="background-color:#71c5e7" ;="">0.258</td>
+            <td style="background-color:#71c5e7" ;="">0.956</td>
+            <td style="background-color:#9dd7ef" ;="">0.951</td>
+            <td style="background-color:#71c5e7" ;="">0.005</td>
+            <td style="background-color:#45b3e0" ;="">0.923</td>
+            <td style="background-color:#71c5e7" ;="">2.13</td>
+            <td style="background-color:#f5fbfd" ;="">2.39</td>
+            <td style="background-color:#71c5e7" ;="">0.26</td>
+            <td style="background-color:#45b3e0" ;="">1.74</td>
+            <td style="background-color:#45b3e0" ;="">2445</td>
+            <td style="background-color:#c9e9f6" ;="">0.043</td>
+            <td style="background-color:#f5fbfd" ;="">0.134</td>
+            <td style="background-color:#f5fbfd" ;="">87</td>
+            <td style="background-color:#45b3e0" ;="">1042</td>
+            <td style="background-color:#45b3e0" ;="">1882</td>
+            <td style="background-color:#71c5e7" ;="">19.37%</td>
+            <td style="background-color:#71c5e7" ;="">57.34%</td>
+            <td style="background-color:#9dd7ef" ;="">54.64%</td>
+            <td style="background-color:#f5fbfd" ;="">2.7%</td>
+            <td style="background-color:#45b3e0" ;="">0.981</td>
+            <td style="background-color:#71c5e7" ;="">0.972</td>
+            <td style="background-color:#71c5e7" ;="">0.009</td>
+            <td style="background-color:#9dd7ef" ;="">0.871</td>
+            <td style="background-color:#9dd7ef" ;="">0.880</td>
+            <td style="background-color:#c9e9f6" ;="">-0.008</td>
+            <td style="background-color:#71c5e7" ;="">0.670</td>
+            <td style="background-color:#9dd7ef" ;="">0.648</td>
+            <td style="background-color:#71c5e7" ;="">0.023</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">9</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/BUF.png" width="75"
+                                    height="50" align="left" alt="Buffalo Sabres"></td>
+                            <td style="text-align:left;">Ryan Miller</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">40</td>
+            <td style="background-color:#f5fbfd" ;="">108</td>
+            <td style="background-color:#f5fbfd" ;="">116.66</td>
+            <td style="background-color:#45b3e0" ;="">8.7</td>
+            <td style="background-color:#71c5e7" ;="">0.227</td>
+            <td style="background-color:#9dd7ef" ;="">0.954</td>
+            <td style="background-color:#9dd7ef" ;="">0.950</td>
+            <td style="background-color:#71c5e7" ;="">0.004</td>
+            <td style="background-color:#71c5e7" ;="">0.915</td>
+            <td style="background-color:#f5fbfd" ;="">2.81</td>
+            <td style="background-color:#f5fbfd" ;="">3.04</td>
+            <td style="background-color:#71c5e7" ;="">0.23</td>
+            <td style="background-color:#45b3e0" ;="">1.44</td>
+            <td style="background-color:#45b3e0" ;="">2302</td>
+            <td style="background-color:#9dd7ef" ;="">0.036</td>
+            <td style="background-color:#f5fbfd" ;="">0.126</td>
+            <td style="background-color:#f5fbfd" ;="">108</td>
+            <td style="background-color:#45b3e0" ;="">1162</td>
+            <td style="background-color:#45b3e0" ;="">2217</td>
+            <td style="background-color:#71c5e7" ;="">19.99%</td>
+            <td style="background-color:#9dd7ef" ;="">54.62%</td>
+            <td style="background-color:#9dd7ef" ;="">53.5%</td>
+            <td style="background-color:#c9e9f6" ;="">1.12%</td>
+            <td style="background-color:#45b3e0" ;="">0.975</td>
+            <td style="background-color:#71c5e7" ;="">0.970</td>
+            <td style="background-color:#71c5e7" ;="">0.006</td>
+            <td style="background-color:#71c5e7" ;="">0.897</td>
+            <td style="background-color:#9dd7ef" ;="">0.880</td>
+            <td style="background-color:#45b3e0" ;="">0.017</td>
+            <td style="background-color:#9dd7ef" ;="">0.610</td>
+            <td style="background-color:#71c5e7" ;="">0.657</td>
+            <td style="background-color:#f5fbfd" ;="">-0.047</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">10</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/CHI.png" width="75"
+                                    height="50" align="left" alt="Chicago Blackhawks"></td>
+                            <td style="text-align:left;">Corey Crawford</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">30</td>
+            <td style="background-color:#f5fbfd" ;="">57</td>
+            <td style="background-color:#f5fbfd" ;="">63.77</td>
+            <td style="background-color:#45b3e0" ;="">6.8</td>
+            <td style="background-color:#71c5e7" ;="">0.232</td>
+            <td style="background-color:#71c5e7" ;="">0.959</td>
+            <td style="background-color:#9dd7ef" ;="">0.954</td>
+            <td style="background-color:#71c5e7" ;="">0.005</td>
+            <td style="background-color:#45b3e0" ;="">0.926</td>
+            <td style="background-color:#45b3e0" ;="">1.94</td>
+            <td style="background-color:#9dd7ef" ;="">2.17</td>
+            <td style="background-color:#71c5e7" ;="">0.23</td>
+            <td style="background-color:#45b3e0" ;="">1.13</td>
+            <td style="background-color:#45b3e0" ;="">1760</td>
+            <td style="background-color:#9dd7ef" ;="">0.033</td>
+            <td style="background-color:#f5fbfd" ;="">0.12</td>
+            <td style="background-color:#f5fbfd" ;="">57</td>
+            <td style="background-color:#45b3e0" ;="">712</td>
+            <td style="background-color:#45b3e0" ;="">1330</td>
+            <td style="background-color:#45b3e0" ;="">20.61%</td>
+            <td style="background-color:#71c5e7" ;="">55.44%</td>
+            <td style="background-color:#9dd7ef" ;="">53.17%</td>
+            <td style="background-color:#f5fbfd" ;="">2.27%</td>
+            <td style="background-color:#45b3e0" ;="">0.980</td>
+            <td style="background-color:#71c5e7" ;="">0.971</td>
+            <td style="background-color:#71c5e7" ;="">0.008</td>
+            <td style="background-color:#71c5e7" ;="">0.901</td>
+            <td style="background-color:#9dd7ef" ;="">0.879</td>
+            <td style="background-color:#45b3e0" ;="">0.022</td>
+            <td style="background-color:#c9e9f6" ;="">0.577</td>
+            <td style="background-color:#71c5e7" ;="">0.652</td>
+            <td style="background-color:#f5fbfd" ;="">-0.075</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">11</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/VAN.png" width="75"
+                                    height="50" align="left" alt="Vancouver Canucks"></td>
+                            <td style="text-align:left;">Cory Schneider</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">30</td>
+            <td style="background-color:#f5fbfd" ;="">61</td>
+            <td style="background-color:#f5fbfd" ;="">67.38</td>
+            <td style="background-color:#45b3e0" ;="">6.4</td>
+            <td style="background-color:#71c5e7" ;="">0.222</td>
+            <td style="background-color:#71c5e7" ;="">0.958</td>
+            <td style="background-color:#9dd7ef" ;="">0.954</td>
+            <td style="background-color:#71c5e7" ;="">0.004</td>
+            <td style="background-color:#45b3e0" ;="">0.927</td>
+            <td style="background-color:#71c5e7" ;="">2.11</td>
+            <td style="background-color:#c9e9f6" ;="">2.33</td>
+            <td style="background-color:#71c5e7" ;="">0.22</td>
+            <td style="background-color:#45b3e0" ;="">1.06</td>
+            <td style="background-color:#45b3e0" ;="">1733</td>
+            <td style="background-color:#c9e9f6" ;="">0.041</td>
+            <td style="background-color:#f5fbfd" ;="">0.132</td>
+            <td style="background-color:#f5fbfd" ;="">61</td>
+            <td style="background-color:#45b3e0" ;="">774</td>
+            <td style="background-color:#45b3e0" ;="">1404</td>
+            <td style="background-color:#71c5e7" ;="">19.51%</td>
+            <td style="background-color:#71c5e7" ;="">57%</td>
+            <td style="background-color:#9dd7ef" ;="">54.92%</td>
+            <td style="background-color:#f5fbfd" ;="">2.08%</td>
+            <td style="background-color:#71c5e7" ;="">0.974</td>
+            <td style="background-color:#71c5e7" ;="">0.972</td>
+            <td style="background-color:#9dd7ef" ;="">0.002</td>
+            <td style="background-color:#71c5e7" ;="">0.911</td>
+            <td style="background-color:#9dd7ef" ;="">0.875</td>
+            <td style="background-color:#45b3e0" ;="">0.035</td>
+            <td style="background-color:#71c5e7" ;="">0.655</td>
+            <td style="background-color:#45b3e0" ;="">0.703</td>
+            <td style="background-color:#f5fbfd" ;="">-0.048</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">12</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/NYR.png" width="75"
+                                    height="50" align="left" alt="New York Rangers"></td>
+                            <td style="text-align:left;">Henrik Lundqvist</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">43</td>
+            <td style="background-color:#f5fbfd" ;="">88</td>
+            <td style="background-color:#f5fbfd" ;="">96.69</td>
+            <td style="background-color:#45b3e0" ;="">8.7</td>
+            <td style="background-color:#71c5e7" ;="">0.203</td>
+            <td style="background-color:#71c5e7" ;="">0.962</td>
+            <td style="background-color:#71c5e7" ;="">0.959</td>
+            <td style="background-color:#71c5e7" ;="">0.004</td>
+            <td style="background-color:#45b3e0" ;="">0.926</td>
+            <td style="background-color:#71c5e7" ;="">2.05</td>
+            <td style="background-color:#9dd7ef" ;="">2.25</td>
+            <td style="background-color:#71c5e7" ;="">0.20</td>
+            <td style="background-color:#45b3e0" ;="">1.45</td>
+            <td style="background-color:#45b3e0" ;="">2573</td>
+            <td style="background-color:#9dd7ef" ;="">0.034</td>
+            <td style="background-color:#f5fbfd" ;="">0.113</td>
+            <td style="background-color:#f5fbfd" ;="">88</td>
+            <td style="background-color:#45b3e0" ;="">1102</td>
+            <td style="background-color:#45b3e0" ;="">2258</td>
+            <td style="background-color:#45b3e0" ;="">22.55%</td>
+            <td style="background-color:#c9e9f6" ;="">50.72%</td>
+            <td style="background-color:#c9e9f6" ;="">50.16%</td>
+            <td style="background-color:#9dd7ef" ;="">0.56%</td>
+            <td style="background-color:#45b3e0" ;="">0.975</td>
+            <td style="background-color:#71c5e7" ;="">0.973</td>
+            <td style="background-color:#9dd7ef" ;="">0.002</td>
+            <td style="background-color:#71c5e7" ;="">0.911</td>
+            <td style="background-color:#9dd7ef" ;="">0.877</td>
+            <td style="background-color:#45b3e0" ;="">0.033</td>
+            <td style="background-color:#9dd7ef" ;="">0.632</td>
+            <td style="background-color:#71c5e7" ;="">0.663</td>
+            <td style="background-color:#f5fbfd" ;="">-0.030</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">13</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/CBJ.png" width="75"
+                                    height="50" align="left" alt="Columbus Blue Jackets"></td>
+                            <td style="text-align:left;">Sergei Bobrovsky</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">38</td>
+            <td style="background-color:#f5fbfd" ;="">74</td>
+            <td style="background-color:#f5fbfd" ;="">80.86</td>
+            <td style="background-color:#45b3e0" ;="">6.9</td>
+            <td style="background-color:#71c5e7" ;="">0.187</td>
+            <td style="background-color:#71c5e7" ;="">0.962</td>
+            <td style="background-color:#71c5e7" ;="">0.958</td>
+            <td style="background-color:#71c5e7" ;="">0.004</td>
+            <td style="background-color:#45b3e0" ;="">0.932</td>
+            <td style="background-color:#45b3e0" ;="">2.00</td>
+            <td style="background-color:#9dd7ef" ;="">2.19</td>
+            <td style="background-color:#71c5e7" ;="">0.19</td>
+            <td style="background-color:#45b3e0" ;="">1.14</td>
+            <td style="background-color:#45b3e0" ;="">2218</td>
+            <td style="background-color:#c9e9f6" ;="">0.04</td>
+            <td style="background-color:#f5fbfd" ;="">0.089</td>
+            <td style="background-color:#f5fbfd" ;="">74</td>
+            <td style="background-color:#45b3e0" ;="">1010</td>
+            <td style="background-color:#45b3e0" ;="">1866</td>
+            <td style="background-color:#71c5e7" ;="">19.7%</td>
+            <td style="background-color:#71c5e7" ;="">55.88%</td>
+            <td style="background-color:#9dd7ef" ;="">53.97%</td>
+            <td style="background-color:#f5fbfd" ;="">1.91%</td>
+            <td style="background-color:#45b3e0" ;="">0.977</td>
+            <td style="background-color:#71c5e7" ;="">0.973</td>
+            <td style="background-color:#9dd7ef" ;="">0.004</td>
+            <td style="background-color:#9dd7ef" ;="">0.884</td>
+            <td style="background-color:#9dd7ef" ;="">0.878</td>
+            <td style="background-color:#71c5e7" ;="">0.007</td>
+            <td style="background-color:#45b3e0" ;="">0.712</td>
+            <td style="background-color:#45b3e0" ;="">0.706</td>
+            <td style="background-color:#9dd7ef" ;="">0.006</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">14</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/ANA.png" width="75"
+                                    height="50" align="left" alt="Anaheim Ducks"></td>
+                            <td style="text-align:left;">Viktor Fasth</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">25</td>
+            <td style="background-color:#f5fbfd" ;="">52</td>
+            <td style="background-color:#f5fbfd" ;="">56.18</td>
+            <td style="background-color:#71c5e7" ;="">4.2</td>
+            <td style="background-color:#71c5e7" ;="">0.176</td>
+            <td style="background-color:#71c5e7" ;="">0.962</td>
+            <td style="background-color:#71c5e7" ;="">0.958</td>
+            <td style="background-color:#71c5e7" ;="">0.003</td>
+            <td style="background-color:#71c5e7" ;="">0.921</td>
+            <td style="background-color:#9dd7ef" ;="">2.18</td>
+            <td style="background-color:#c9e9f6" ;="">2.36</td>
+            <td style="background-color:#71c5e7" ;="">0.18</td>
+            <td style="background-color:#45b3e0" ;="">0.70</td>
+            <td style="background-color:#45b3e0" ;="">1428</td>
+            <td style="background-color:#9dd7ef" ;="">0.038</td>
+            <td style="background-color:#f5fbfd" ;="">0.125</td>
+            <td style="background-color:#f5fbfd" ;="">52</td>
+            <td style="background-color:#45b3e0" ;="">609</td>
+            <td style="background-color:#45b3e0" ;="">1300</td>
+            <td style="background-color:#45b3e0" ;="">22.3%</td>
+            <td style="background-color:#f5fbfd" ;="">48.89%</td>
+            <td style="background-color:#c9e9f6" ;="">50.06%</td>
+            <td style="background-color:#71c5e7" ;="">-1.17%</td>
+            <td style="background-color:#71c5e7" ;="">0.972</td>
+            <td style="background-color:#71c5e7" ;="">0.972</td>
+            <td style="background-color:#9dd7ef" ;="">-0.001</td>
+            <td style="background-color:#71c5e7" ;="">0.905</td>
+            <td style="background-color:#9dd7ef" ;="">0.881</td>
+            <td style="background-color:#45b3e0" ;="">0.024</td>
+            <td style="background-color:#71c5e7" ;="">0.700</td>
+            <td style="background-color:#71c5e7" ;="">0.688</td>
+            <td style="background-color:#71c5e7" ;="">0.012</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">15</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/SJS.png" width="75"
+                                    height="50" align="left" alt="San Jose Sharks"></td>
+                            <td style="text-align:left;">Antti Niemi</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">43</td>
+            <td style="background-color:#f5fbfd" ;="">93</td>
+            <td style="background-color:#f5fbfd" ;="">99.67</td>
+            <td style="background-color:#45b3e0" ;="">6.7</td>
+            <td style="background-color:#71c5e7" ;="">0.156</td>
+            <td style="background-color:#71c5e7" ;="">0.962</td>
+            <td style="background-color:#71c5e7" ;="">0.959</td>
+            <td style="background-color:#71c5e7" ;="">0.003</td>
+            <td style="background-color:#45b3e0" ;="">0.924</td>
+            <td style="background-color:#9dd7ef" ;="">2.16</td>
+            <td style="background-color:#c9e9f6" ;="">2.32</td>
+            <td style="background-color:#71c5e7" ;="">0.16</td>
+            <td style="background-color:#45b3e0" ;="">1.11</td>
+            <td style="background-color:#45b3e0" ;="">2580</td>
+            <td style="background-color:#9dd7ef" ;="">0.034</td>
+            <td style="background-color:#f5fbfd" ;="">0.164</td>
+            <td style="background-color:#f5fbfd" ;="">93</td>
+            <td style="background-color:#45b3e0" ;="">1127</td>
+            <td style="background-color:#45b3e0" ;="">2348</td>
+            <td style="background-color:#45b3e0" ;="">22.83%</td>
+            <td style="background-color:#c9e9f6" ;="">49.98%</td>
+            <td style="background-color:#c9e9f6" ;="">50.5%</td>
+            <td style="background-color:#9dd7ef" ;="">-0.52%</td>
+            <td style="background-color:#45b3e0" ;="">0.978</td>
+            <td style="background-color:#71c5e7" ;="">0.973</td>
+            <td style="background-color:#71c5e7" ;="">0.005</td>
+            <td style="background-color:#71c5e7" ;="">0.892</td>
+            <td style="background-color:#9dd7ef" ;="">0.879</td>
+            <td style="background-color:#45b3e0" ;="">0.013</td>
+            <td style="background-color:#9dd7ef" ;="">0.630</td>
+            <td style="background-color:#71c5e7" ;="">0.674</td>
+            <td style="background-color:#f5fbfd" ;="">-0.043</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">16</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/WSH.png" width="75"
+                                    height="50" align="left" alt="Washington Capitals"></td>
+                            <td style="text-align:left;">Braden Holtby</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">36</td>
+            <td style="background-color:#f5fbfd" ;="">90</td>
+            <td style="background-color:#f5fbfd" ;="">92.77</td>
+            <td style="background-color:#71c5e7" ;="">2.8</td>
+            <td style="background-color:#9dd7ef" ;="">0.080</td>
+            <td style="background-color:#71c5e7" ;="">0.956</td>
+            <td style="background-color:#9dd7ef" ;="">0.954</td>
+            <td style="background-color:#9dd7ef" ;="">0.001</td>
+            <td style="background-color:#71c5e7" ;="">0.92</td>
+            <td style="background-color:#f5fbfd" ;="">2.58</td>
+            <td style="background-color:#f5fbfd" ;="">2.66</td>
+            <td style="background-color:#9dd7ef" ;="">0.08</td>
+            <td style="background-color:#71c5e7" ;="">0.46</td>
+            <td style="background-color:#45b3e0" ;="">2089</td>
+            <td style="background-color:#c9e9f6" ;="">0.043</td>
+            <td style="background-color:#f5fbfd" ;="">0.138</td>
+            <td style="background-color:#f5fbfd" ;="">90</td>
+            <td style="background-color:#45b3e0" ;="">1033</td>
+            <td style="background-color:#45b3e0" ;="">1937</td>
+            <td style="background-color:#45b3e0" ;="">21.25%</td>
+            <td style="background-color:#71c5e7" ;="">55.4%</td>
+            <td style="background-color:#9dd7ef" ;="">52.49%</td>
+            <td style="background-color:#f5fbfd" ;="">2.91%</td>
+            <td style="background-color:#9dd7ef" ;="">0.968</td>
+            <td style="background-color:#71c5e7" ;="">0.972</td>
+            <td style="background-color:#c9e9f6" ;="">-0.004</td>
+            <td style="background-color:#71c5e7" ;="">0.892</td>
+            <td style="background-color:#9dd7ef" ;="">0.878</td>
+            <td style="background-color:#45b3e0" ;="">0.014</td>
+            <td style="background-color:#45b3e0" ;="">0.730</td>
+            <td style="background-color:#71c5e7" ;="">0.691</td>
+            <td style="background-color:#45b3e0" ;="">0.040</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">17</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/PIT.png" width="75"
+                                    height="50" align="left" alt="Pittsburgh Penguins"></td>
+                            <td style="text-align:left;">Marc-Andre Fleury</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">33</td>
+            <td style="background-color:#f5fbfd" ;="">74</td>
+            <td style="background-color:#f5fbfd" ;="">75.67</td>
+            <td style="background-color:#71c5e7" ;="">1.7</td>
+            <td style="background-color:#9dd7ef" ;="">0.055</td>
+            <td style="background-color:#71c5e7" ;="">0.957</td>
+            <td style="background-color:#71c5e7" ;="">0.956</td>
+            <td style="background-color:#9dd7ef" ;="">0.001</td>
+            <td style="background-color:#71c5e7" ;="">0.916</td>
+            <td style="background-color:#f5fbfd" ;="">2.39</td>
+            <td style="background-color:#f5fbfd" ;="">2.44</td>
+            <td style="background-color:#9dd7ef" ;="">0.05</td>
+            <td style="background-color:#71c5e7" ;="">0.28</td>
+            <td style="background-color:#45b3e0" ;="">1857</td>
+            <td style="background-color:#9dd7ef" ;="">0.036</td>
+            <td style="background-color:#f5fbfd" ;="">0.109</td>
+            <td style="background-color:#f5fbfd" ;="">74</td>
+            <td style="background-color:#45b3e0" ;="">807</td>
+            <td style="background-color:#45b3e0" ;="">1649</td>
+            <td style="background-color:#45b3e0" ;="">21.97%</td>
+            <td style="background-color:#c9e9f6" ;="">51.13%</td>
+            <td style="background-color:#c9e9f6" ;="">51.5%</td>
+            <td style="background-color:#9dd7ef" ;="">-0.37%</td>
+            <td style="background-color:#45b3e0" ;="">0.979</td>
+            <td style="background-color:#71c5e7" ;="">0.971</td>
+            <td style="background-color:#71c5e7" ;="">0.007</td>
+            <td style="background-color:#9dd7ef" ;="">0.860</td>
+            <td style="background-color:#9dd7ef" ;="">0.880</td>
+            <td style="background-color:#f5fbfd" ;="">-0.020</td>
+            <td style="background-color:#71c5e7" ;="">0.667</td>
+            <td style="background-color:#71c5e7" ;="">0.673</td>
+            <td style="background-color:#9dd7ef" ;="">-0.006</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">18</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/ARI.png" width="75"
+                                    height="50" align="left" alt="Arizona Coyotes"></td>
+                            <td style="text-align:left;">Mike Smith</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">34</td>
+            <td style="background-color:#f5fbfd" ;="">84</td>
+            <td style="background-color:#f5fbfd" ;="">82.68</td>
+            <td style="background-color:#9dd7ef" ;="">-1.3</td>
+            <td style="background-color:#9dd7ef" ;="">-0.040</td>
+            <td style="background-color:#9dd7ef" ;="">0.953</td>
+            <td style="background-color:#9dd7ef" ;="">0.954</td>
+            <td style="background-color:#9dd7ef" ;="">-0.001</td>
+            <td style="background-color:#9dd7ef" ;="">0.91</td>
+            <td style="background-color:#f5fbfd" ;="">2.58</td>
+            <td style="background-color:#f5fbfd" ;="">2.54</td>
+            <td style="background-color:#9dd7ef" ;="">-0.04</td>
+            <td style="background-color:#c9e9f6" ;="">-0.22</td>
+            <td style="background-color:#45b3e0" ;="">1955</td>
+            <td style="background-color:#9dd7ef" ;="">0.036</td>
+            <td style="background-color:#f5fbfd" ;="">0.114</td>
+            <td style="background-color:#f5fbfd" ;="">84</td>
+            <td style="background-color:#45b3e0" ;="">854</td>
+            <td style="background-color:#45b3e0" ;="">1701</td>
+            <td style="background-color:#45b3e0" ;="">20.74%</td>
+            <td style="background-color:#9dd7ef" ;="">52.55%</td>
+            <td style="background-color:#9dd7ef" ;="">52.83%</td>
+            <td style="background-color:#9dd7ef" ;="">-0.28%</td>
+            <td style="background-color:#71c5e7" ;="">0.970</td>
+            <td style="background-color:#71c5e7" ;="">0.971</td>
+            <td style="background-color:#9dd7ef" ;="">-0.001</td>
+            <td style="background-color:#9dd7ef" ;="">0.880</td>
+            <td style="background-color:#9dd7ef" ;="">0.880</td>
+            <td style="background-color:#9dd7ef" ;="">-0.000</td>
+            <td style="background-color:#71c5e7" ;="">0.692</td>
+            <td style="background-color:#71c5e7" ;="">0.691</td>
+            <td style="background-color:#9dd7ef" ;="">0.002</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">19</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/ANA.png" width="75"
+                                    height="50" align="left" alt="Anaheim Ducks"></td>
+                            <td style="text-align:left;">Jonas Hiller</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">26</td>
+            <td style="background-color:#f5fbfd" ;="">59</td>
+            <td style="background-color:#f5fbfd" ;="">57.74</td>
+            <td style="background-color:#9dd7ef" ;="">-1.3</td>
+            <td style="background-color:#9dd7ef" ;="">-0.052</td>
+            <td style="background-color:#71c5e7" ;="">0.957</td>
+            <td style="background-color:#71c5e7" ;="">0.958</td>
+            <td style="background-color:#9dd7ef" ;="">-0.001</td>
+            <td style="background-color:#9dd7ef" ;="">0.913</td>
+            <td style="background-color:#c9e9f6" ;="">2.36</td>
+            <td style="background-color:#c9e9f6" ;="">2.31</td>
+            <td style="background-color:#9dd7ef" ;="">-0.05</td>
+            <td style="background-color:#c9e9f6" ;="">-0.21</td>
+            <td style="background-color:#45b3e0" ;="">1498</td>
+            <td style="background-color:#9dd7ef" ;="">0.035</td>
+            <td style="background-color:#f5fbfd" ;="">0.123</td>
+            <td style="background-color:#f5fbfd" ;="">59</td>
+            <td style="background-color:#45b3e0" ;="">616</td>
+            <td style="background-color:#45b3e0" ;="">1325</td>
+            <td style="background-color:#45b3e0" ;="">21.81%</td>
+            <td style="background-color:#f5fbfd" ;="">48.77%</td>
+            <td style="background-color:#c9e9f6" ;="">50.93%</td>
+            <td style="background-color:#45b3e0" ;="">-2.15%</td>
+            <td style="background-color:#71c5e7" ;="">0.972</td>
+            <td style="background-color:#71c5e7" ;="">0.971</td>
+            <td style="background-color:#9dd7ef" ;="">0.001</td>
+            <td style="background-color:#9dd7ef" ;="">0.857</td>
+            <td style="background-color:#9dd7ef" ;="">0.877</td>
+            <td style="background-color:#f5fbfd" ;="">-0.020</td>
+            <td style="background-color:#71c5e7" ;="">0.676</td>
+            <td style="background-color:#9dd7ef" ;="">0.637</td>
+            <td style="background-color:#45b3e0" ;="">0.039</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">20</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/PHI.png" width="75"
+                                    height="50" align="left" alt="Philadelphia Flyers"></td>
+                            <td style="text-align:left;">Ilya Bryzgalov</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">40</td>
+            <td style="background-color:#f5fbfd" ;="">107</td>
+            <td style="background-color:#f5fbfd" ;="">104.26</td>
+            <td style="background-color:#c9e9f6" ;="">-2.7</td>
+            <td style="background-color:#9dd7ef" ;="">-0.071</td>
+            <td style="background-color:#9dd7ef" ;="">0.952</td>
+            <td style="background-color:#9dd7ef" ;="">0.953</td>
+            <td style="background-color:#9dd7ef" ;="">-0.001</td>
+            <td style="background-color:#c9e9f6" ;="">0.9</td>
+            <td style="background-color:#f5fbfd" ;="">2.79</td>
+            <td style="background-color:#f5fbfd" ;="">2.72</td>
+            <td style="background-color:#9dd7ef" ;="">-0.07</td>
+            <td style="background-color:#c9e9f6" ;="">-0.46</td>
+            <td style="background-color:#45b3e0" ;="">2297</td>
+            <td style="background-color:#9dd7ef" ;="">0.036</td>
+            <td style="background-color:#f5fbfd" ;="">0.117</td>
+            <td style="background-color:#f5fbfd" ;="">107</td>
+            <td style="background-color:#45b3e0" ;="">959</td>
+            <td style="background-color:#45b3e0" ;="">2104</td>
+            <td style="background-color:#45b3e0" ;="">22.56%</td>
+            <td style="background-color:#f5fbfd" ;="">48.21%</td>
+            <td style="background-color:#c9e9f6" ;="">51.03%</td>
+            <td style="background-color:#45b3e0" ;="">-2.82%</td>
+            <td style="background-color:#71c5e7" ;="">0.973</td>
+            <td style="background-color:#71c5e7" ;="">0.969</td>
+            <td style="background-color:#9dd7ef" ;="">0.004</td>
+            <td style="background-color:#9dd7ef" ;="">0.864</td>
+            <td style="background-color:#9dd7ef" ;="">0.879</td>
+            <td style="background-color:#f5fbfd" ;="">-0.015</td>
+            <td style="background-color:#9dd7ef" ;="">0.644</td>
+            <td style="background-color:#71c5e7" ;="">0.677</td>
+            <td style="background-color:#f5fbfd" ;="">-0.032</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">21</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/NYI.png" width="75"
+                                    height="50" align="left" alt="New York Islanders"></td>
+                            <td style="text-align:left;">Evgeni Nabokov</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">41</td>
+            <td style="background-color:#f5fbfd" ;="">103</td>
+            <td style="background-color:#f5fbfd" ;="">97.51</td>
+            <td style="background-color:#f5fbfd" ;="">-5.5</td>
+            <td style="background-color:#c9e9f6" ;="">-0.133</td>
+            <td style="background-color:#71c5e7" ;="">0.955</td>
+            <td style="background-color:#71c5e7" ;="">0.957</td>
+            <td style="background-color:#9dd7ef" ;="">-0.002</td>
+            <td style="background-color:#9dd7ef" ;="">0.91</td>
+            <td style="background-color:#f5fbfd" ;="">2.50</td>
+            <td style="background-color:#c9e9f6" ;="">2.36</td>
+            <td style="background-color:#c9e9f6" ;="">-0.13</td>
+            <td style="background-color:#f5fbfd" ;="">-0.91</td>
+            <td style="background-color:#45b3e0" ;="">2475</td>
+            <td style="background-color:#71c5e7" ;="">0.032</td>
+            <td style="background-color:#f5fbfd" ;="">0.115</td>
+            <td style="background-color:#f5fbfd" ;="">103</td>
+            <td style="background-color:#45b3e0" ;="">1036</td>
+            <td style="background-color:#45b3e0" ;="">2163</td>
+            <td style="background-color:#45b3e0" ;="">22.26%</td>
+            <td style="background-color:#c9e9f6" ;="">50.26%</td>
+            <td style="background-color:#c9e9f6" ;="">50.73%</td>
+            <td style="background-color:#9dd7ef" ;="">-0.47%</td>
+            <td style="background-color:#71c5e7" ;="">0.972</td>
+            <td style="background-color:#71c5e7" ;="">0.971</td>
+            <td style="background-color:#9dd7ef" ;="">0.001</td>
+            <td style="background-color:#9dd7ef" ;="">0.863</td>
+            <td style="background-color:#9dd7ef" ;="">0.881</td>
+            <td style="background-color:#f5fbfd" ;="">-0.018</td>
+            <td style="background-color:#71c5e7" ;="">0.659</td>
+            <td style="background-color:#71c5e7" ;="">0.676</td>
+            <td style="background-color:#c9e9f6" ;="">-0.017</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">22</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/CGY.png" width="75"
+                                    height="50" align="left" alt="Calgary Flames"></td>
+                            <td style="text-align:left;">Joey MacDonald</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">21</td>
+            <td style="background-color:#f5fbfd" ;="">55</td>
+            <td style="background-color:#f5fbfd" ;="">51.89</td>
+            <td style="background-color:#c9e9f6" ;="">-3.1</td>
+            <td style="background-color:#c9e9f6" ;="">-0.165</td>
+            <td style="background-color:#9dd7ef" ;="">0.948</td>
+            <td style="background-color:#9dd7ef" ;="">0.951</td>
+            <td style="background-color:#9dd7ef" ;="">-0.003</td>
+            <td style="background-color:#c9e9f6" ;="">0.902</td>
+            <td style="background-color:#f5fbfd" ;="">2.92</td>
+            <td style="background-color:#f5fbfd" ;="">2.76</td>
+            <td style="background-color:#c9e9f6" ;="">-0.17</td>
+            <td style="background-color:#c9e9f6" ;="">-0.52</td>
+            <td style="background-color:#45b3e0" ;="">1128</td>
+            <td style="background-color:#f5fbfd" ;="">0.051</td>
+            <td style="background-color:#f5fbfd" ;="">0.14</td>
+            <td style="background-color:#f5fbfd" ;="">55</td>
+            <td style="background-color:#45b3e0" ;="">508</td>
+            <td style="background-color:#45b3e0" ;="">998</td>
+            <td style="background-color:#45b3e0" ;="">20.35%</td>
+            <td style="background-color:#9dd7ef" ;="">53.47%</td>
+            <td style="background-color:#9dd7ef" ;="">54.04%</td>
+            <td style="background-color:#9dd7ef" ;="">-0.58%</td>
+            <td style="background-color:#45b3e0" ;="">0.976</td>
+            <td style="background-color:#71c5e7" ;="">0.972</td>
+            <td style="background-color:#9dd7ef" ;="">0.004</td>
+            <td style="background-color:#9dd7ef" ;="">0.859</td>
+            <td style="background-color:#9dd7ef" ;="">0.875</td>
+            <td style="background-color:#f5fbfd" ;="">-0.016</td>
+            <td style="background-color:#9dd7ef" ;="">0.625</td>
+            <td style="background-color:#71c5e7" ;="">0.680</td>
+            <td style="background-color:#f5fbfd" ;="">-0.055</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">23</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/TBL.png" width="75"
+                                    height="50" align="left" alt="Tampa Bay Lightning"></td>
+                            <td style="text-align:left;">Anders Lindback</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">24</td>
+            <td style="background-color:#f5fbfd" ;="">63</td>
+            <td style="background-color:#f5fbfd" ;="">58.98</td>
+            <td style="background-color:#c9e9f6" ;="">-4.0</td>
+            <td style="background-color:#c9e9f6" ;="">-0.184</td>
+            <td style="background-color:#9dd7ef" ;="">0.947</td>
+            <td style="background-color:#9dd7ef" ;="">0.951</td>
+            <td style="background-color:#9dd7ef" ;="">-0.003</td>
+            <td style="background-color:#c9e9f6" ;="">0.902</td>
+            <td style="background-color:#f5fbfd" ;="">2.90</td>
+            <td style="background-color:#f5fbfd" ;="">2.71</td>
+            <td style="background-color:#c9e9f6" ;="">-0.18</td>
+            <td style="background-color:#f5fbfd" ;="">-0.67</td>
+            <td style="background-color:#45b3e0" ;="">1304</td>
+            <td style="background-color:#9dd7ef" ;="">0.034</td>
+            <td style="background-color:#f5fbfd" ;="">0.143</td>
+            <td style="background-color:#f5fbfd" ;="">63</td>
+            <td style="background-color:#45b3e0" ;="">579</td>
+            <td style="background-color:#45b3e0" ;="">1131</td>
+            <td style="background-color:#9dd7ef" ;="">18.94%</td>
+            <td style="background-color:#9dd7ef" ;="">53.77%</td>
+            <td style="background-color:#71c5e7" ;="">55.06%</td>
+            <td style="background-color:#71c5e7" ;="">-1.29%</td>
+            <td style="background-color:#71c5e7" ;="">0.972</td>
+            <td style="background-color:#71c5e7" ;="">0.971</td>
+            <td style="background-color:#9dd7ef" ;="">0.001</td>
+            <td style="background-color:#9dd7ef" ;="">0.882</td>
+            <td style="background-color:#9dd7ef" ;="">0.879</td>
+            <td style="background-color:#9dd7ef" ;="">0.003</td>
+            <td style="background-color:#c9e9f6" ;="">0.569</td>
+            <td style="background-color:#71c5e7" ;="">0.665</td>
+            <td style="background-color:#f5fbfd" ;="">-0.097</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">24</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/NJD.png" width="75"
+                                    height="50" align="left" alt="New Jersey Devils"></td>
+                            <td style="text-align:left;">Martin Brodeur</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">29</td>
+            <td style="background-color:#f5fbfd" ;="">65</td>
+            <td style="background-color:#f5fbfd" ;="">58.92</td>
+            <td style="background-color:#f5fbfd" ;="">-6.1</td>
+            <td style="background-color:#c9e9f6" ;="">-0.209</td>
+            <td style="background-color:#c9e9f6" ;="">0.945</td>
+            <td style="background-color:#9dd7ef" ;="">0.950</td>
+            <td style="background-color:#c9e9f6" ;="">-0.005</td>
+            <td style="background-color:#c9e9f6" ;="">0.901</td>
+            <td style="background-color:#9dd7ef" ;="">2.23</td>
+            <td style="background-color:#45b3e0" ;="">2.02</td>
+            <td style="background-color:#c9e9f6" ;="">-0.21</td>
+            <td style="background-color:#f5fbfd" ;="">-1.01</td>
+            <td style="background-color:#45b3e0" ;="">1752</td>
+            <td style="background-color:#9dd7ef" ;="">0.038</td>
+            <td style="background-color:#f5fbfd" ;="">0.112</td>
+            <td style="background-color:#f5fbfd" ;="">65</td>
+            <td style="background-color:#45b3e0" ;="">589</td>
+            <td style="background-color:#45b3e0" ;="">1108</td>
+            <td style="background-color:#45b3e0" ;="">20.47%</td>
+            <td style="background-color:#71c5e7" ;="">55.75%</td>
+            <td style="background-color:#9dd7ef" ;="">53.52%</td>
+            <td style="background-color:#f5fbfd" ;="">2.23%</td>
+            <td style="background-color:#9dd7ef" ;="">0.968</td>
+            <td style="background-color:#71c5e7" ;="">0.971</td>
+            <td style="background-color:#9dd7ef" ;="">-0.003</td>
+            <td style="background-color:#9dd7ef" ;="">0.884</td>
+            <td style="background-color:#9dd7ef" ;="">0.880</td>
+            <td style="background-color:#9dd7ef" ;="">0.003</td>
+            <td style="background-color:#f5fbfd" ;="">0.544</td>
+            <td style="background-color:#9dd7ef" ;="">0.627</td>
+            <td style="background-color:#f5fbfd" ;="">-0.083</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">25</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/STL.png" width="75"
+                                    height="50" align="left" alt="St. Louis Blues"></td>
+                            <td style="text-align:left;">Brian Elliott</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">24</td>
+            <td style="background-color:#f5fbfd" ;="">49</td>
+            <td style="background-color:#f5fbfd" ;="">44.26</td>
+            <td style="background-color:#c9e9f6" ;="">-4.7</td>
+            <td style="background-color:#c9e9f6" ;="">-0.225</td>
+            <td style="background-color:#9dd7ef" ;="">0.951</td>
+            <td style="background-color:#71c5e7" ;="">0.956</td>
+            <td style="background-color:#c9e9f6" ;="">-0.005</td>
+            <td style="background-color:#9dd7ef" ;="">0.907</td>
+            <td style="background-color:#c9e9f6" ;="">2.35</td>
+            <td style="background-color:#71c5e7" ;="">2.12</td>
+            <td style="background-color:#c9e9f6" ;="">-0.23</td>
+            <td style="background-color:#f5fbfd" ;="">-0.79</td>
+            <td style="background-color:#45b3e0" ;="">1251</td>
+            <td style="background-color:#9dd7ef" ;="">0.033</td>
+            <td style="background-color:#f5fbfd" ;="">0.154</td>
+            <td style="background-color:#f5fbfd" ;="">49</td>
+            <td style="background-color:#45b3e0" ;="">477</td>
+            <td style="background-color:#45b3e0" ;="">951</td>
+            <td style="background-color:#45b3e0" ;="">20.13%</td>
+            <td style="background-color:#9dd7ef" ;="">52.6%</td>
+            <td style="background-color:#9dd7ef" ;="">54.1%</td>
+            <td style="background-color:#71c5e7" ;="">-1.5%</td>
+            <td style="background-color:#71c5e7" ;="">0.971</td>
+            <td style="background-color:#71c5e7" ;="">0.973</td>
+            <td style="background-color:#9dd7ef" ;="">-0.002</td>
+            <td style="background-color:#71c5e7" ;="">0.906</td>
+            <td style="background-color:#9dd7ef" ;="">0.882</td>
+            <td style="background-color:#45b3e0" ;="">0.023</td>
+            <td style="background-color:#f5fbfd" ;="">0.535</td>
+            <td style="background-color:#71c5e7" ;="">0.688</td>
+            <td style="background-color:#f5fbfd" ;="">-0.153</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">26</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/LAK.png" width="75"
+                                    height="50" align="left" alt="Los Angeles Kings"></td>
+                            <td style="text-align:left;">Jonathan Quick</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">37</td>
+            <td style="background-color:#f5fbfd" ;="">87</td>
+            <td style="background-color:#f5fbfd" ;="">78.97</td>
+            <td style="background-color:#f5fbfd" ;="">-8.0</td>
+            <td style="background-color:#c9e9f6" ;="">-0.225</td>
+            <td style="background-color:#9dd7ef" ;="">0.947</td>
+            <td style="background-color:#9dd7ef" ;="">0.952</td>
+            <td style="background-color:#c9e9f6" ;="">-0.005</td>
+            <td style="background-color:#c9e9f6" ;="">0.902</td>
+            <td style="background-color:#f5fbfd" ;="">2.45</td>
+            <td style="background-color:#9dd7ef" ;="">2.22</td>
+            <td style="background-color:#c9e9f6" ;="">-0.23</td>
+            <td style="background-color:#f5fbfd" ;="">-1.34</td>
+            <td style="background-color:#45b3e0" ;="">2133</td>
+            <td style="background-color:#9dd7ef" ;="">0.038</td>
+            <td style="background-color:#f5fbfd" ;="">0.132</td>
+            <td style="background-color:#f5fbfd" ;="">87</td>
+            <td style="background-color:#45b3e0" ;="">802</td>
+            <td style="background-color:#45b3e0" ;="">1542</td>
+            <td style="background-color:#9dd7ef" ;="">18.55%</td>
+            <td style="background-color:#9dd7ef" ;="">54.57%</td>
+            <td style="background-color:#71c5e7" ;="">55.61%</td>
+            <td style="background-color:#71c5e7" ;="">-1.04%</td>
+            <td style="background-color:#9dd7ef" ;="">0.964</td>
+            <td style="background-color:#71c5e7" ;="">0.971</td>
+            <td style="background-color:#c9e9f6" ;="">-0.006</td>
+            <td style="background-color:#9dd7ef" ;="">0.880</td>
+            <td style="background-color:#9dd7ef" ;="">0.875</td>
+            <td style="background-color:#71c5e7" ;="">0.005</td>
+            <td style="background-color:#9dd7ef" ;="">0.625</td>
+            <td style="background-color:#71c5e7" ;="">0.672</td>
+            <td style="background-color:#f5fbfd" ;="">-0.047</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">27</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/COL.png" width="75"
+                                    height="50" align="left" alt="Colorado Avalanche"></td>
+                            <td style="text-align:left;">Semyon Varlamov</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">35</td>
+            <td style="background-color:#f5fbfd" ;="">98</td>
+            <td style="background-color:#f5fbfd" ;="">90.09</td>
+            <td style="background-color:#f5fbfd" ;="">-7.9</td>
+            <td style="background-color:#c9e9f6" ;="">-0.243</td>
+            <td style="background-color:#9dd7ef" ;="">0.950</td>
+            <td style="background-color:#9dd7ef" ;="">0.954</td>
+            <td style="background-color:#c9e9f6" ;="">-0.004</td>
+            <td style="background-color:#c9e9f6" ;="">0.903</td>
+            <td style="background-color:#f5fbfd" ;="">3.02</td>
+            <td style="background-color:#f5fbfd" ;="">2.77</td>
+            <td style="background-color:#c9e9f6" ;="">-0.24</td>
+            <td style="background-color:#f5fbfd" ;="">-1.32</td>
+            <td style="background-color:#45b3e0" ;="">1949</td>
+            <td style="background-color:#f5fbfd" ;="">0.049</td>
+            <td style="background-color:#f5fbfd" ;="">0.116</td>
+            <td style="background-color:#f5fbfd" ;="">98</td>
+            <td style="background-color:#45b3e0" ;="">909</td>
+            <td style="background-color:#45b3e0" ;="">1866</td>
+            <td style="background-color:#45b3e0" ;="">21.63%</td>
+            <td style="background-color:#c9e9f6" ;="">51.27%</td>
+            <td style="background-color:#c9e9f6" ;="">51.94%</td>
+            <td style="background-color:#71c5e7" ;="">-0.67%</td>
+            <td style="background-color:#71c5e7" ;="">0.971</td>
+            <td style="background-color:#71c5e7" ;="">0.972</td>
+            <td style="background-color:#9dd7ef" ;="">-0.000</td>
+            <td style="background-color:#9dd7ef" ;="">0.865</td>
+            <td style="background-color:#9dd7ef" ;="">0.878</td>
+            <td style="background-color:#f5fbfd" ;="">-0.013</td>
+            <td style="background-color:#9dd7ef" ;="">0.627</td>
+            <td style="background-color:#71c5e7" ;="">0.675</td>
+            <td style="background-color:#f5fbfd" ;="">-0.049</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">28</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/MIN.png" width="75"
+                                    height="50" align="left" alt="Minnesota Wild"></td>
+                            <td style="text-align:left;">Niklas Backstrom</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">42</td>
+            <td style="background-color:#f5fbfd" ;="">98</td>
+            <td style="background-color:#f5fbfd" ;="">87.68</td>
+            <td style="background-color:#f5fbfd" ;="">-10.3</td>
+            <td style="background-color:#c9e9f6" ;="">-0.263</td>
+            <td style="background-color:#9dd7ef" ;="">0.951</td>
+            <td style="background-color:#71c5e7" ;="">0.956</td>
+            <td style="background-color:#c9e9f6" ;="">-0.005</td>
+            <td style="background-color:#9dd7ef" ;="">0.909</td>
+            <td style="background-color:#f5fbfd" ;="">2.50</td>
+            <td style="background-color:#9dd7ef" ;="">2.24</td>
+            <td style="background-color:#c9e9f6" ;="">-0.26</td>
+            <td style="background-color:#f5fbfd" ;="">-1.72</td>
+            <td style="background-color:#45b3e0" ;="">2348</td>
+            <td style="background-color:#9dd7ef" ;="">0.036</td>
+            <td style="background-color:#f5fbfd" ;="">0.131</td>
+            <td style="background-color:#f5fbfd" ;="">98</td>
+            <td style="background-color:#45b3e0" ;="">974</td>
+            <td style="background-color:#45b3e0" ;="">1887</td>
+            <td style="background-color:#45b3e0" ;="">20.25%</td>
+            <td style="background-color:#9dd7ef" ;="">54.01%</td>
+            <td style="background-color:#9dd7ef" ;="">53.47%</td>
+            <td style="background-color:#9dd7ef" ;="">0.53%</td>
+            <td style="background-color:#45b3e0" ;="">0.976</td>
+            <td style="background-color:#71c5e7" ;="">0.971</td>
+            <td style="background-color:#71c5e7" ;="">0.006</td>
+            <td style="background-color:#c9e9f6" ;="">0.846</td>
+            <td style="background-color:#9dd7ef" ;="">0.878</td>
+            <td style="background-color:#f5fbfd" ;="">-0.032</td>
+            <td style="background-color:#f5fbfd" ;="">0.508</td>
+            <td style="background-color:#9dd7ef" ;="">0.646</td>
+            <td style="background-color:#f5fbfd" ;="">-0.138</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">29</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/MTL.png" width="75"
+                                    height="50" align="left" alt="Montreal Canadiens"></td>
+                            <td style="text-align:left;">Carey Price</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">39</td>
+            <td style="background-color:#f5fbfd" ;="">97</td>
+            <td style="background-color:#f5fbfd" ;="">86.74</td>
+            <td style="background-color:#f5fbfd" ;="">-10.3</td>
+            <td style="background-color:#c9e9f6" ;="">-0.277</td>
+            <td style="background-color:#9dd7ef" ;="">0.950</td>
+            <td style="background-color:#71c5e7" ;="">0.955</td>
+            <td style="background-color:#c9e9f6" ;="">-0.005</td>
+            <td style="background-color:#c9e9f6" ;="">0.905</td>
+            <td style="background-color:#f5fbfd" ;="">2.61</td>
+            <td style="background-color:#c9e9f6" ;="">2.33</td>
+            <td style="background-color:#c9e9f6" ;="">-0.28</td>
+            <td style="background-color:#f5fbfd" ;="">-1.71</td>
+            <td style="background-color:#45b3e0" ;="">2229</td>
+            <td style="background-color:#71c5e7" ;="">0.03</td>
+            <td style="background-color:#f5fbfd" ;="">0.129</td>
+            <td style="background-color:#f5fbfd" ;="">97</td>
+            <td style="background-color:#45b3e0" ;="">921</td>
+            <td style="background-color:#45b3e0" ;="">1842</td>
+            <td style="background-color:#45b3e0" ;="">21.97%</td>
+            <td style="background-color:#9dd7ef" ;="">52.5%</td>
+            <td style="background-color:#c9e9f6" ;="">50.93%</td>
+            <td style="background-color:#c9e9f6" ;="">1.57%</td>
+            <td style="background-color:#71c5e7" ;="">0.972</td>
+            <td style="background-color:#71c5e7" ;="">0.974</td>
+            <td style="background-color:#9dd7ef" ;="">-0.002</td>
+            <td style="background-color:#c9e9f6" ;="">0.855</td>
+            <td style="background-color:#9dd7ef" ;="">0.879</td>
+            <td style="background-color:#f5fbfd" ;="">-0.024</td>
+            <td style="background-color:#c9e9f6" ;="">0.566</td>
+            <td style="background-color:#9dd7ef" ;="">0.601</td>
+            <td style="background-color:#f5fbfd" ;="">-0.035</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">30</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/WPG.png" width="75"
+                                    height="50" align="left" alt="Winnipeg Jets"></td>
+                            <td style="text-align:left;">Ondrej Pavelec</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">44</td>
+            <td style="background-color:#f5fbfd" ;="">119</td>
+            <td style="background-color:#f5fbfd" ;="">106.13</td>
+            <td style="background-color:#f5fbfd" ;="">-12.9</td>
+            <td style="background-color:#c9e9f6" ;="">-0.303</td>
+            <td style="background-color:#9dd7ef" ;="">0.950</td>
+            <td style="background-color:#71c5e7" ;="">0.955</td>
+            <td style="background-color:#c9e9f6" ;="">-0.005</td>
+            <td style="background-color:#c9e9f6" ;="">0.905</td>
+            <td style="background-color:#f5fbfd" ;="">2.80</td>
+            <td style="background-color:#f5fbfd" ;="">2.49</td>
+            <td style="background-color:#c9e9f6" ;="">-0.30</td>
+            <td style="background-color:#f5fbfd" ;="">-2.15</td>
+            <td style="background-color:#45b3e0" ;="">2552</td>
+            <td style="background-color:#c9e9f6" ;="">0.044</td>
+            <td style="background-color:#f5fbfd" ;="">0.119</td>
+            <td style="background-color:#f5fbfd" ;="">119</td>
+            <td style="background-color:#45b3e0" ;="">1132</td>
+            <td style="background-color:#45b3e0" ;="">2254</td>
+            <td style="background-color:#45b3e0" ;="">20.82%</td>
+            <td style="background-color:#9dd7ef" ;="">52.72%</td>
+            <td style="background-color:#9dd7ef" ;="">52.68%</td>
+            <td style="background-color:#9dd7ef" ;="">0.04%</td>
+            <td style="background-color:#9dd7ef" ;="">0.967</td>
+            <td style="background-color:#71c5e7" ;="">0.970</td>
+            <td style="background-color:#9dd7ef" ;="">-0.003</td>
+            <td style="background-color:#9dd7ef" ;="">0.863</td>
+            <td style="background-color:#9dd7ef" ;="">0.879</td>
+            <td style="background-color:#f5fbfd" ;="">-0.016</td>
+            <td style="background-color:#9dd7ef" ;="">0.640</td>
+            <td style="background-color:#71c5e7" ;="">0.680</td>
+            <td style="background-color:#f5fbfd" ;="">-0.041</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">31</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/NSH.png" width="75"
+                                    height="50" align="left" alt="Nashville Predators"></td>
+                            <td style="text-align:left;">Pekka Rinne</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">43</td>
+            <td style="background-color:#f5fbfd" ;="">99</td>
+            <td style="background-color:#f5fbfd" ;="">86.14</td>
+            <td style="background-color:#f5fbfd" ;="">-12.9</td>
+            <td style="background-color:#c9e9f6" ;="">-0.319</td>
+            <td style="background-color:#9dd7ef" ;="">0.954</td>
+            <td style="background-color:#71c5e7" ;="">0.960</td>
+            <td style="background-color:#c9e9f6" ;="">-0.006</td>
+            <td style="background-color:#9dd7ef" ;="">0.91</td>
+            <td style="background-color:#f5fbfd" ;="">2.45</td>
+            <td style="background-color:#71c5e7" ;="">2.13</td>
+            <td style="background-color:#f5fbfd" ;="">-0.32</td>
+            <td style="background-color:#f5fbfd" ;="">-2.14</td>
+            <td style="background-color:#45b3e0" ;="">2423</td>
+            <td style="background-color:#45b3e0" ;="">0.024</td>
+            <td style="background-color:#f5fbfd" ;="">0.133</td>
+            <td style="background-color:#f5fbfd" ;="">99</td>
+            <td style="background-color:#45b3e0" ;="">1002</td>
+            <td style="background-color:#45b3e0" ;="">2063</td>
+            <td style="background-color:#45b3e0" ;="">21.98%</td>
+            <td style="background-color:#c9e9f6" ;="">50.93%</td>
+            <td style="background-color:#c9e9f6" ;="">51.42%</td>
+            <td style="background-color:#9dd7ef" ;="">-0.5%</td>
+            <td style="background-color:#71c5e7" ;="">0.974</td>
+            <td style="background-color:#71c5e7" ;="">0.972</td>
+            <td style="background-color:#9dd7ef" ;="">0.002</td>
+            <td style="background-color:#c9e9f6" ;="">0.841</td>
+            <td style="background-color:#9dd7ef" ;="">0.884</td>
+            <td style="background-color:#f5fbfd" ;="">-0.043</td>
+            <td style="background-color:#f5fbfd" ;="">0.547</td>
+            <td style="background-color:#9dd7ef" ;="">0.634</td>
+            <td style="background-color:#f5fbfd" ;="">-0.087</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">32</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/FLA.png" width="75"
+                                    height="50" align="left" alt="Florida Panthers"></td>
+                            <td style="text-align:left;">Jacob Markstrom</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">23</td>
+            <td style="background-color:#f5fbfd" ;="">68</td>
+            <td style="background-color:#f5fbfd" ;="">58.95</td>
+            <td style="background-color:#f5fbfd" ;="">-9.0</td>
+            <td style="background-color:#f5fbfd" ;="">-0.427</td>
+            <td style="background-color:#c9e9f6" ;="">0.941</td>
+            <td style="background-color:#9dd7ef" ;="">0.949</td>
+            <td style="background-color:#c9e9f6" ;="">-0.008</td>
+            <td style="background-color:#c9e9f6" ;="">0.901</td>
+            <td style="background-color:#f5fbfd" ;="">3.22</td>
+            <td style="background-color:#f5fbfd" ;="">2.79</td>
+            <td style="background-color:#f5fbfd" ;="">-0.43</td>
+            <td style="background-color:#f5fbfd" ;="">-1.51</td>
+            <td style="background-color:#45b3e0" ;="">1265</td>
+            <td style="background-color:#f5fbfd" ;="">0.049</td>
+            <td style="background-color:#f5fbfd" ;="">0.129</td>
+            <td style="background-color:#f5fbfd" ;="">68</td>
+            <td style="background-color:#45b3e0" ;="">617</td>
+            <td style="background-color:#45b3e0" ;="">1091</td>
+            <td style="background-color:#c9e9f6" ;="">17.74%</td>
+            <td style="background-color:#45b3e0" ;="">59.1%</td>
+            <td style="background-color:#71c5e7" ;="">56.03%</td>
+            <td style="background-color:#f5fbfd" ;="">3.07%</td>
+            <td style="background-color:#9dd7ef" ;="">0.965</td>
+            <td style="background-color:#71c5e7" ;="">0.971</td>
+            <td style="background-color:#c9e9f6" ;="">-0.006</td>
+            <td style="background-color:#c9e9f6" ;="">0.840</td>
+            <td style="background-color:#9dd7ef" ;="">0.879</td>
+            <td style="background-color:#f5fbfd" ;="">-0.039</td>
+            <td style="background-color:#71c5e7" ;="">0.672</td>
+            <td style="background-color:#71c5e7" ;="">0.653</td>
+            <td style="background-color:#71c5e7" ;="">0.020</td>
+        </tr>
+        <tr>
+            <th>
+                <table border="0" style="width:290px;" id="noBorders">
+                    <tbody>
+                        <tr>
+                            <td width="35" style="font-weight:bold; font-size:35px;">33</td>
+                            <td style="width:40px"><img src="http://peter-tanner.com/moneypuck/logos/CGY.png" width="75"
+                                    height="50" align="left" alt="Calgary Flames"></td>
+                            <td style="text-align:left;">Miikka Kiprusoff</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+            <td style="background-color:#45b3e0" ;="">24</td>
+            <td style="background-color:#f5fbfd" ;="">77</td>
+            <td style="background-color:#f5fbfd" ;="">56.32</td>
+            <td style="background-color:#f5fbfd" ;="">-20.7</td>
+            <td style="background-color:#f5fbfd" ;="">-0.924</td>
+            <td style="background-color:#f5fbfd" ;="">0.938</td>
+            <td style="background-color:#71c5e7" ;="">0.955</td>
+            <td style="background-color:#f5fbfd" ;="">-0.017</td>
+            <td style="background-color:#f5fbfd" ;="">0.882</td>
+            <td style="background-color:#f5fbfd" ;="">3.44</td>
+            <td style="background-color:#f5fbfd" ;="">2.51</td>
+            <td style="background-color:#f5fbfd" ;="">-0.92</td>
+            <td style="background-color:#f5fbfd" ;="">-3.45</td>
+            <td style="background-color:#45b3e0" ;="">1344</td>
+            <td style="background-color:#9dd7ef" ;="">0.035</td>
+            <td style="background-color:#f5fbfd" ;="">0.144</td>
+            <td style="background-color:#f5fbfd" ;="">77</td>
+            <td style="background-color:#45b3e0" ;="">573</td>
+            <td style="background-color:#45b3e0" ;="">1175</td>
+            <td style="background-color:#45b3e0" ;="">20.56%</td>
+            <td style="background-color:#c9e9f6" ;="">51.92%</td>
+            <td style="background-color:#9dd7ef" ;="">53.08%</td>
+            <td style="background-color:#71c5e7" ;="">-1.16%</td>
+            <td style="background-color:#9dd7ef" ;="">0.968</td>
+            <td style="background-color:#71c5e7" ;="">0.973</td>
+            <td style="background-color:#c9e9f6" ;="">-0.005</td>
+            <td style="background-color:#f5fbfd" ;="">0.814</td>
+            <td style="background-color:#9dd7ef" ;="">0.883</td>
+            <td style="background-color:#f5fbfd" ;="">-0.068</td>
+            <td style="background-color:#f5fbfd" ;="">0.537</td>
+            <td style="background-color:#71c5e7" ;="">0.651</td>
+            <td style="background-color:#f5fbfd" ;="">-0.114</td>
+        </tr>
+    </tbody>
+</table>
